@@ -86,6 +86,8 @@ p {
     background-color: #2589bd;
 }
 
+/* combined all omited sections to one above it*/
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -193,8 +195,7 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h4 {
     font-size: 20px;
 }
+
+/* took out seperate footer h4 and added font sise to first footer */
