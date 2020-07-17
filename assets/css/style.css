@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+.header div ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -86,7 +86,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-brand {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -101,12 +101,12 @@ p {
     color: #ffffff;
 } */
 
-.benefit-lead h3, .benefit-cost h3, .benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-brand h3{
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -131,8 +131,8 @@ p {
 .benefit-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px; */
-}
+    max-width: 150px;
+} */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -193,5 +193,8 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+.footer h4 {
     font-size: 20px;
 }
